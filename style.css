@@ -1,0 +1,21 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+nav .Navbar {
+    display: flex;
+}
+
+nav .Navbar .lftcont span {
+    padding: 20px;
+}
+
+nav .Navbar div {
+    display: flex;
+    padding: 10px;
+}
+
+section .intro {
+    display: flex;
+}
