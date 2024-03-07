@@ -13,10 +13,16 @@ nav .Navbar .rgtcont .apply button {
     padding-right: 20px;
     background-color: red;
     margin: 0cm;
+    height: 1.7cm;
+    width: 4cm;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 nav .Navbar .rgtcont .apply button:hover{
-    background-color: blue;
+    background-color: aqua;
 }
 
 nav .Navbar .logo {
@@ -35,7 +41,7 @@ nav .Navbar .logo {
 nav .Navbar .rgtcont {
     display: flex;
     padding: 10px;
-    padding-left: 550px;
+    padding-left: 480px;
 }
 
 
@@ -53,6 +59,10 @@ section .intro .para1 {
 section .intro .puali img {
     height: 19cm;
     width: 15cm;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 
@@ -78,6 +88,29 @@ section .intro .para1 .btns {
     color: white;
     height: 1.5cm;
     width: 6cm;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#a1 {
+    background-color: red;
+    border-color: red;
+}
+
+#a1:hover {
+    background-color: aqua;
+}
+
+#a2 {
+    background-color: white;
+    color: red;
+    border-color: red;
+}
+
+#a2:hover {
+    background-color: aqua;
 }
 
 /* hiring companies div */
