@@ -1,21 +1,102 @@
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0.09cm;
+    margin: 0.09cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav .Navbar {
     display: flex;
 }
 
-nav .Navbar .lftcont span {
-    padding: 20px;
+/* button styling */
+nav .Navbar .rgtcont .apply button {
+    padding-right: 20px;
+    background-color: red;
+    margin: 0cm;
 }
 
-nav .Navbar div {
+nav .Navbar .rgtcont .apply button:hover{
+    background-color: blue;
+}
+
+nav .Navbar .logo {
+    width: 5cm;
+    height: auto;
+    display: block;
+}
+
+/* left content */
+.Navbar .lftcont {
+    padding: 20px;
+    display: flex;
+}
+
+/* right content */
+nav .Navbar .rgtcont {
     display: flex;
     padding: 10px;
+    padding-left: 550px;
 }
 
+
+/* introduction */
 section .intro {
     display: flex;
+}
+
+/* introduction text */
+section .intro .para1 {
+    padding-top: 50px;
+}
+
+/* introduction image */
+section .intro .puali img {
+    height: 19cm;
+    width: 15cm;
+}
+
+
+/* introduction heading */
+section .intro .para1 h1 {
+    font-size: 50.6px;
+}
+
+/* introduction paragraph */
+section .intro .para1 p {
+    font-size: 23.46px;
+}
+
+.p1 {
+    color: red;
+    font: 300;
+}
+
+/* intro buuttons */
+section .intro .para1 .btns {
+    font-size: 19.55px;
+    background-color: red;
+    color: white;
+    height: 1.5cm;
+    width: 6cm;
+}
+
+/* hiring companies div */
+.companies {
+    background-color: black;
+}
+
+/* hiring companies logos */
+.wrkcpns {
+    width: 100px;
+    height: 50px;
+    padding: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* hiring companies heading */
+.companies h4 {
+    color: white;
 }
