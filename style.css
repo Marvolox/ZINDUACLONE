@@ -19,10 +19,12 @@ nav .Navbar .rgtcont .apply button {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    border-color: red;
 }
 
 nav .Navbar .rgtcont .apply button:hover{
     background-color: aqua;
+    border-color: aqua;
 }
 
 nav .Navbar .logo {
@@ -123,6 +125,13 @@ section .intro .para1 .btns {
     width: 100px;
     height: 50px;
     padding: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.companies {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
